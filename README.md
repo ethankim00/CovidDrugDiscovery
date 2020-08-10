@@ -33,12 +33,12 @@ The rdkit package was used to generate relevant physical descriptors of a molecu
 
 Almost all the predictors are approximately normally distributed with some righ skewed outliers. 
 
-![Target Distribution](https://github.com/ethankim00/CovidDrugDiscovery/Images/blob/master/target_distribution.png?raw=true)
+![Target Distribution](https://github.com/ethankim00/CovidDrugDiscovery/blob/master/target_distribution.png?raw=true)
 
 The Hit scores are also normally distributed with only 13 drugs exceeding the cutoff to be considered a hit. 
 
 
-![Feature Correlatins](https://github.com/ethankim00/CovidDrugDiscovery/Images/blob/master/feature_correlations.png?raw=true)
+![Feature Correlatins](https://github.com/ethankim00/CovidDrugDiscovery/blob/master/feature_correlations.png?raw=true)
 
 A number of features are highly correlated in ways that make sense based on their physical interpretation. Therefore a number of the most highly correlated features were dropped from the final model. 
 
@@ -55,6 +55,7 @@ This method uses primarily chemical descriptors of a molecule and thus has diffi
 
 ## Sources
 - [CHEMBL Database](ebi.ac.uk/chembl/g/#browse/activities/filter/src_id%3A52)
+
 Inspiration
 - [Ken Jee](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg)
 - [Data Professor](https://www.youtube.com/c/DataProfessor/featured)
